@@ -1,0 +1,14 @@
+.product{
+    border: 3px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    position: relative;
+    transition: box-shadow 0.3s;
+}
+
+.product:hover{
+    box-shadow: -3px 5px #436df5;
+    left: 3px;
+    bottom: 5px;
+}
