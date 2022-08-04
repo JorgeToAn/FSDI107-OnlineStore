@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Project Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project presents an online store app created through the React framework, it presents a catalog of products in which the user can pick from and add them to a cart.
 
 ## Available Scripts
 
