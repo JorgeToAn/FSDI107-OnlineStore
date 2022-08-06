@@ -5,3 +5,23 @@
     display: flex;
     justify-content: space-between;
 }
+
+.navbar h5{
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.navbar .links, .navbar .brand{
+    margin: 20px 0;
+}
+
+.navbar nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0 5px;
+    transition: color 0.5s;
+}
+
+.navbar nav a:hover{
+    color: #ffffffc2;
+}
