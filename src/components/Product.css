@@ -12,3 +12,32 @@
     left: 3px;
     bottom: 5px;
 }
+
+.product h4{
+    margin: 0.5rem 0 0 0;
+}
+
+.product .price-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.product .total{
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #f5ae43;
+}
+
+.product .flex-container{
+    display: flex;
+}
+
+.product button{
+    padding: 5px;
+    font-weight: 700;
+    color: white;
+    background-color: #436df5;
+    border: none;
+    border-radius: 5px;
+}

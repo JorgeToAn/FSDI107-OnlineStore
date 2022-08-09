@@ -1,10 +1,10 @@
 const CATALOG = [
     {
         _id: "fhh0h0th430h2049h",
-        title: "Lenovo IdeaPad Laptop",
-        price: 699.99,
-        image: "lenovo_laptop.jpg",
-        category: "Electronics"
+        title: "Wingspan",
+        price: 59.99,
+        image: "wingspan.jpg",
+        category: "Card Game"
     },
     {
         _id: "bfuiewb2rfh9fr9fg",
@@ -18,14 +18,14 @@ const CATALOG = [
         title: "Azul Board Game",
         price: 32,
         image: "azul_boardgame.jpg",
-        category: "Board Games"
+        category: "Board Game"
     },
     {
         _id: "aubfo823fuwbef982",
         title: "Stardew Valley: The Board Game",
         price: 88,
         image: "stardew_boardgame.jpg",
-        category: "Board Games"
+        category: "Board Game"
     },
     {
         _id: "inipqw8f429fbf921",
@@ -40,6 +40,13 @@ const CATALOG = [
         price: 8.02,
         image: "yahtzee.jpg",
         category: "Board Game"
+    },
+    {
+        _id: "finesoon0823ubofs9",
+        title: "Lego Star Wars BD-1",
+        price: 100,
+        image: "lego_starwars_bd1.jpg",
+        category: "Toys"
     }
 ];
 

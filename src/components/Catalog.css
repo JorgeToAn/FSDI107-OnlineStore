@@ -1,3 +1,12 @@
 .catalog .product{
     display: inline-block;
 }
+
+.catalog .categories button{
+    margin: 0 5px;
+    padding: 6px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
