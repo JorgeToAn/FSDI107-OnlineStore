@@ -10,3 +10,7 @@
     border-radius: 10px;
     font-size: 0.8rem;
 }
+
+.catalog .categories button:hover{
+    background-color: #e4e4e4;
+}

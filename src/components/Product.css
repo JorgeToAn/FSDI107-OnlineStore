@@ -41,3 +41,7 @@
     border: none;
     border-radius: 5px;
 }
+
+.product button:hover{
+    background-color: #3e63df;
+}

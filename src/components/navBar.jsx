@@ -4,6 +4,7 @@ const NavBar = () => {
     return (
         <div className='navbar'>
             <div className="brand">
+                <img src="/images/onlinestore_logo.png" alt="logo" width={40} height={40}/>
                 <h5>Nippy Online Store</h5>
             </div>
             <div className="links">

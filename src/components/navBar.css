@@ -6,13 +6,22 @@
     justify-content: space-between;
 }
 
+.navbar .brand{
+    display: flex;
+}
+
 .navbar h5{
     margin: 0;
     letter-spacing: 1px;
+    padding: 10px 0 10px 5px;
 }
 
 .navbar .links, .navbar .brand{
-    margin: 20px 0;
+    margin: 10px 0;
+}
+
+.navbar .links{
+    padding: 10px 0;
 }
 
 .navbar nav a{

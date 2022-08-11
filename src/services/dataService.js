@@ -39,7 +39,7 @@ const CATALOG = [
         title: "Yahtzee",
         price: 8.02,
         image: "yahtzee.jpg",
-        category: "Board Game"
+        category: "Party Game"
     },
     {
         _id: "finesoon0823ubofs9",
@@ -47,6 +47,41 @@ const CATALOG = [
         price: 100,
         image: "lego_starwars_bd1.jpg",
         category: "Toys"
+    },
+    {
+        _id: "gubsg8239ub44bgqbf",
+        title: "Terraforming Mars",
+        price: 34.89,
+        image: "terraforming_mars.webp",
+        category: "Board Game"
+    },
+    {
+        _id: "fubefuiqf8912r93efwe7",
+        title: "Betrayal at House on the Hill",
+        price: 23.79,
+        image: "Betrayal_at_House_on_the_Hill.jpg",
+        category: "Board Game"
+    },
+    {
+        _id: "bqfpbp34299938nfefi",
+        title: "Lego Atari 2600",
+        price: 239.99,
+        image: "lego_atari.png",
+        category: "Toys"
+    },
+    {
+        _id: "rfbqfo387t378t13ef83",
+        tile: "Catan",
+        price: 59.99,
+        image: "catan.webp",
+        category: "Board Game"
+    },
+    {
+        _id: "njvs2314ibfibwe782",
+        title: "Codenames",
+        price: 9.59,
+        image: "codenames.webp",
+        category: "Party Game"
     }
 ];
 
