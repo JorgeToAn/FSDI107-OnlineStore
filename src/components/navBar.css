@@ -24,13 +24,26 @@
     padding: 10px 0;
 }
 
-.navbar nav a{
+.navbar nav .link{
     text-decoration: none;
     color: white;
     padding: 0 5px;
     transition: color 0.5s;
 }
 
-.navbar nav a:hover{
+.navbar nav .link:hover{
     color: #ffffffc2;
+}
+
+.navbar nav .btn-link{
+    text-decoration: none;
+    color: #191e2e;
+    padding:10px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.navbar nav .btn-link:hover{
+    background-color: #ffffffc2;
 }
