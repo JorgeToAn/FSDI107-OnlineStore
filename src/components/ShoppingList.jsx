@@ -11,9 +11,9 @@ const ShoppingList = () => {
     }
 
     const save = () => {
-        let itemsArray = items;
-        itemsArray.push(shoppingText);
-        setItems(itemsArray);
+        let itemsCopy = [...items];
+        itemsCopy.push(shoppingText);
+        setItems(itemsCopy);
     };
 
     return(

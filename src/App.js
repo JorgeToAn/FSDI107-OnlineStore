@@ -6,6 +6,7 @@ import Catalog from './components/Catalog';
 import ShoppingList from './components/ShoppingList';
 import Home from './components/Home';
 import Cart from "./components/Cart";
+import Admin from "./components/Admin";
 
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/catalog" element={<Catalog/>} />
           <Route path="/about" element={<AboutMe/>} />
           <Route path="/list" element={<ShoppingList/>} />
+          <Route path="/admin" element={<Admin/>} />
           <Route path="/cart" element={<Cart/>} />
         </Routes>
 
