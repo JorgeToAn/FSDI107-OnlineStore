@@ -1,12 +1,14 @@
 import "./Product.css";
 import QuantityPicker from "./QuantityPicker";
-import { useState } from "react";
+import { useState, useContext } from "react";
+import StoreContext from "../store/storeContext";
 
 const Product = (props) => {
     const [quantity, setQuantity] = useState(1);
+    const addToCart = useContext(StoreContext).addToCart;
 
-    const addToCart = () => {
-        console.log("Added", props.data.title);
+    const onAddClicked = () => {
+        addToCart(props.data);
     };
 
     const onQuantityChange = (quantity) => {
@@ -28,7 +30,7 @@ const Product = (props) => {
             </div>
             <div className="flex-container">
                 <QuantityPicker onChange={onQuantityChange}/>
-                <button onClick={addToCart}>Add</button>
+                <button onClick={onAddClicked}>Add</button>
             </div>
             <p>{props.data.category}</p>
         </div>

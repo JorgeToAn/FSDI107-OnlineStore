@@ -9,12 +9,11 @@ const AboutMe = () => {
     };
     
     return(
-        <div className="AboutMe">
-            <h3>About Me</h3>
-            <hr />
-            <p>Hello, my name is:</p>
+        <div className="about">
+            <h1>About Me</h1>
+            <h3>Hi, I'm a young student in Computer Systems, currently learning through the Full Stack Course.</h3>
             <h4>{name}</h4>
-            <button onClick={showName}>Show</button>
+            <button onClick={showName}>Read More</button>
         </div>
     );
 }

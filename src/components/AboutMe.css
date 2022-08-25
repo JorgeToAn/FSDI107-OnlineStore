@@ -1,23 +1,23 @@
-.AboutMe{
+.about{
     border: 2px solid white;
     width: 70%;
     margin: 10px auto;
 }
 
-.AboutMe hr{
+.about hr{
     border-top: 2px solid white;
 }
 
-.AboutMe button{
-    border: 1px solid #3adb3a;
+.about button{
+    border: none;
     border-radius: 5px;
-    background-color: #3adb3a;
+    background-color: #41b641;
     color: white;
     margin-bottom: 10px;
     padding: 5px;
     font-weight: 700;
 }
 
-.AboutMe button:hover{
-    background-color: #2fb92f;
+.about button:hover{
+    background-color: #319631;
 }

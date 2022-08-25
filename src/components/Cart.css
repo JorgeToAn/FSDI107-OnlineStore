@@ -1,0 +1,21 @@
+.cart .flex-container{
+    display: flex;
+}
+
+.cart .preview{
+    flex-grow: 5;
+    padding: 30px;
+}
+
+.cart .cart-item{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    text-align: left;
+    margin: 10px;
+    padding-left: 25px;
+}
+
+.cart .checkout{
+    flex-grow: 5;
+}
