@@ -6,10 +6,25 @@ const GlobalState = (props) => {
     const [user, setUser] = useState({});
     
     const addToCart = (product) => {
-        console.log("Adding to cart", product);
-
         let cartCopy = [...cart];
-        cartCopy.push(product);
+        let exists = false;
+        
+        // verifies if the product exists already, if so, updates the quantity
+        for(let i=0; i<cart.length && !exists; i++){
+            let cartProduct = cartCopy[i];
+            if (product._id === cartProduct._id){
+                cartProduct.quantity += product.quantity;
+                exists = true;
+                console.log("Updated quantity", cartProduct);
+            }
+        }
+
+        // if not, add it to the cart
+        if (!exists){
+            console.log("Adding to cart", product);
+            cartCopy.push(product);
+        }
+
         setCart(cartCopy);
     };
     const removeFromCart = () => {};

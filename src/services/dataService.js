@@ -71,7 +71,7 @@ const CATALOG = [
     },
     {
         _id: "10",
-        tile: "Catan",
+        title: "Catan",
         price: 59.99,
         image: "catan.webp",
         category: "Board Game"
