@@ -1,3 +1,7 @@
+.cart{
+    min-height: 80vh;
+}
+
 .cart .flex-container{
     display: flex;
 }
@@ -12,14 +16,9 @@
     
 }
 
-/* .cart .cart-items{
-    background-color: #333942;
-} */
-
 .cart .checkout{
     flex-grow: 5;
     padding: 30px 0;
-    /* background-color: #333942; */
 }
 
 .cart .total{
