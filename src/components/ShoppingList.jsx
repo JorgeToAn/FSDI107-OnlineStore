@@ -18,9 +18,10 @@ const ShoppingList = () => {
 
     return(
         <div className="shoppingList">
-            <h3>Shopping List</h3>
+            <h1>Shopping List</h1>
 
             <div className="form">
+                <h3>Add the things you need to shop for!</h3>
                 <input onChange={textChange} type="text" />
                 <button onClick={save}>Add</button>
             </div>

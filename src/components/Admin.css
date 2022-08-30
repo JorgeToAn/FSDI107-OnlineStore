@@ -1,3 +1,7 @@
+.admin {
+    min-height: 80vh;
+}
+
 .admin .flex-container{
     display: flex;
     justify-content: space-evenly;
@@ -45,4 +49,10 @@
 
 .admin .coupon-form{
     width: 50%;
+}
+
+.admin .alert-success{
+    width: 100%;
+    background-color: #39d66879;
+    color: #09d34d;
 }
